@@ -1,6 +1,6 @@
 import React from "react";
 import './PostContainer.css';
-import CommentSection from "./CommentSection.js";
+import CommentSection from "../CommentSection/CommentSection";
 
 function PostContainer(props) {
     return (
@@ -17,7 +17,7 @@ function PostContainer(props) {
         </div>
 
         <div>
-          
+
 
 
         </div>
@@ -28,4 +28,4 @@ function PostContainer(props) {
     );
 }
 
-export default PostContainer;
+export default PostContainer; 

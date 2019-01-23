@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import SearchBar from './Components/SearchBar.js';
-import PostContainer from './Components/PostContainer.js';
+import SearchBar from './Components/SearchBar/SearchBar';
+import PostContainer from './Components/PostContainer/PostContainer';
 import dummyData from './dummy-data.js';
 
 class App extends Component {
@@ -35,4 +35,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App; 
